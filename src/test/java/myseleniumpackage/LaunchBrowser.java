@@ -24,5 +24,6 @@ public class LaunchBrowser {
         driver.get("https://demo.nopcommerce.com/");
         System.out.println("Title of the webpage is:"+driver.getTitle());
         System.out.println("URL of the webpage is:"+driver.getCurrentUrl());
+        System.out.println("Page Source is:"+driver.getPageSource());
     }
 }
