@@ -48,7 +48,7 @@ public class HandleJQueryDropDown {
         }
         else
         {
-           for(WebElement item:choiceList)
+           for(WebElement item:choiceList) //Reading each choice list from item variable
            {
                 item.click();
            }
