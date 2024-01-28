@@ -8,4 +8,5 @@ In this project I have tried to touch base upon the important concepts which are
 6. Handling Broken Links
 7. Alerts popup
 8. Authentication popup
+9. Permission popup notification
    
