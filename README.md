@@ -6,4 +6,6 @@ In this project I have tried to touch base upon the important concepts which are
 4. Jquery Dropdown
 5. Handling Links
 6. Handling Broken Links
+7. Alerts popup
+8. Authentication popup
    
