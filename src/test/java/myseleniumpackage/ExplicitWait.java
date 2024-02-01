@@ -18,7 +18,7 @@ public class ExplicitWait {
         driver.manage().window().maximize(); //maximize the web page
         driver.findElement(By.name("q")).sendKeys("Selenium"); //Selenium passed in search box section
         driver.findElement(By.name("q")).sendKeys(Keys.RETURN); //Press ENTER Button
-
+        //Explicit wait: Element specific, use this for multiple web elements.
         By elelocator = By.xpath("//a[normalize-space()='WebDriver']");
         waitForElementPresent(driver, elelocator, 10).click(); //returning the webelement on which we click on
         driver.quit();
