@@ -46,10 +46,12 @@ public class UploadFile {
         //Paste the same in file name text box Control+V
         rb.keyPress(KeyEvent.VK_CONTROL); //Press on control key on keyboard
         rb.keyPress(KeyEvent.VK_V); // Press on V Key
+        rb.delay(3000);
 
         //Release the key and click on Enter key
         rb.keyRelease(KeyEvent.VK_CONTROL);
         rb.keyRelease(KeyEvent.VK_V);
+        rb.delay(3000);
 
         rb.keyPress(KeyEvent.VK_ENTER); //press the enter key
         rb.keyRelease(KeyEvent.VK_ENTER); //release the enter key
